@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld />
+	<DataGrid />
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import HelloWorld from '../components/HelloWorld.vue';
+import Vue from "vue";
+import DataGrid from "../components/DataGrid.vue";
 
 export default Vue.extend({
-  components: {
-    HelloWorld,
-  },
+	components: {
+		DataGrid
+	}
 });
 </script>
